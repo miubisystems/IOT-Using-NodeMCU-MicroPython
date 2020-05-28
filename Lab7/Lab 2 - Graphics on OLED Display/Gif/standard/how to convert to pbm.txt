@@ -1,0 +1,1 @@
+magicK convert download.jpg -resize 128x32! 0.pbm

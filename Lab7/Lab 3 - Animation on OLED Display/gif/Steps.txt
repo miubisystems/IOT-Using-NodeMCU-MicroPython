@@ -1,0 +1,14 @@
+1. Convert any gif to desired size
+
+magicK convert stick_gif.gif -layers Coalesce -resize 128x32 -layers Optimize g.gif
+
+
+2. Convert the justa an images to pbm files
+
+magicK convert default-meta-image.png 1.pbm
+
+
+3. Split images from GIF to pbm files
+
+magicK convert -coalesce g.gif out_%d.pbm
+
